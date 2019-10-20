@@ -28,6 +28,11 @@ A boxplot might be more relevant? There is no point in doing regression analysis
 Boxplot:
 The 50th percentile of the data is almost the same in both plots (~21 and 23 respectively). However, it appears that the majority of the data for the houses near the river are in the 75th percentile. The minimum value is 14 thousand and the max value is 50 thousand. The values for these houses are significantly higher than houses away from the river, as 50% of the data are between 21 and 33 thousand. It appears that the houses far from the river are significantly cheaper, with 50% of the data spread between 17 and 25 thousand. The min value is 3 and the max is 37, if you don't include the outliers. There are many outliers at the high end of the spectrum however, representing houses that are very expensive, yet far from the river.
 
+TTest:
+Ttest_indResult(statistic=-3.996437466090509, pvalue=7.390623170519905e-05)
+Probability that the 2 populations have the same means is 74% (rounded off).
+
+
 
 3/ Predict (**Well-trained neural network providing decent predictions of house prices based on the other variables. Good explanations of how to use the neural network and how it works**)
 - Use keras [7] to create a neural network that can predict the median house price based on the other variables in the dataset.
