@@ -30,7 +30,9 @@ The 50th percentile of the data is almost the same in both plots (~21 and 23 res
 
 TTest:
 Ttest_indResult(statistic=-3.996437466090509, pvalue=7.390623170519905e-05)
-Probability that the 2 populations have the same means is 74% (rounded off).
+Very small probability that they are the same? Probability is < 0.05, at 0.00000739, therefore the average median house price for the riverside properties is different to the average median house price for the properties far from the river.
+We can see that there are only 35 houses near the river, yet there are 471 houses far from the river. Does this disparity have an effect on the calculated outcome? (In ANOVA it matters that the sample sizes to be compared are similar.)
+
 
 
 
