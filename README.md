@@ -1,5 +1,10 @@
 # Boston House Prices Analysis/Neural Network Project
 
+What is this notebook?
+..
+How to use this notebook?
+..
+
 Initial plan - 
 
 1/ Describe (**Good summary of the dataset, repository well laid-out and organised. Reasonable commits to the repository**):
@@ -12,7 +17,8 @@ Initial plan -
 OBSERVATIONS:
 The values of MEDV are distributed normally with few outliers.
 RM has a strong positive correlation with MEDV (0.7) where as LSTAT has a high negative correlation with MEDV(-0.74).
-0.18 indicates a positive correlation with MEDV, although it is not particularly strong.
+0.18 indicates a positive correlation of CHAS with MEDV, although it is not particularly strong.
+
 
 
 2/ Infer (**Appropriate analysis of the relationship between the median house price and whether the house borders the river, with good explanations of the analysis**)
@@ -39,4 +45,9 @@ We can see that there are only 35 houses near the river, yet there are 471 house
 3/ Predict (**Well-trained neural network providing decent predictions of house prices based on the other variables. Good explanations of how to use the neural network and how it works**)
 - Use keras [7] to create a neural network that can predict the median house price based on the other variables in the dataset.
 - ??
+
+Tried some NN testing:
+Predictions for near/far to charles river is not very accurate (logical errors in code?).
+Other predictions might be LSTAT or CRIM might be some other variables to test along with CHAS.
+
 
