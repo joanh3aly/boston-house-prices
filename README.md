@@ -1,7 +1,5 @@
 # Boston House Prices Analysis/Neural Network Project
 
-[[_TOC_]]
-
 ## This is a Jupyter notebook that analyses the Boston Housing dataset.
 
 It compares the median values of housing with regard to whether or not they are near or far from the Charles River (CHAS). It runs some descriptive to find the mean, max, median, standard deviation and variance . 
@@ -21,8 +19,8 @@ git clone
 ```
 
 To run the notebook, you must first install Jupyter Notebooks. It is recommended that you install the package manager Anaconda, which comes bundled with Python 3 and Jupyter.
-The guide to installing Anaconda is (here)[https://docs.anaconda.com/anaconda/install/].
-A guide is (here)[https://jupyter.readthedocs.io/en/latest/install.html].
+The guide to installing Anaconda is [here](https://docs.anaconda.com/anaconda/install/).
+A guide is [here](https://jupyter.readthedocs.io/en/latest/install.html).
 
 To run the notebook, open a terminal or bash window and type:
 ```bash
@@ -37,10 +35,10 @@ Initial plan -
 
 1/ Describe (**Good summary of the dataset, repository well laid-out and organised. Reasonable commits to the repository**):
 - <s>Download/import dataset</s>
-- Run basic exporatory analysis of dataset - df.head, find mean, max, min, median, variance etc - esp wrt housing near the charles river as the main feature for analysis.
-- Plot the data using matplotlib/seaborn (https://nbviewer.jupyter.org/github/ianmcloughlin/jupyter-teaching-notebooks/blob/master/simple-linear-regression.ipynb)
-- Find the slope and cost
-- Find the line of best fit
+- <s>Run basic exporatory analysis of dataset - df.head, find mean, max, min, median, variance etc - esp wrt housing near the charles river as the main feature for analysis.</s>
+- <s>Plot the data using matplotlib/seaborn (https://nbviewer.jupyter.org/github/ianmcloughlin/jupyter-teaching-notebooks/blob/master/simple-linear-regression.ipynb)</s>
+- <s>Find the slope and cost</s>
+- <s>Find the line of best fit</s>
 
 OBSERVATIONS:
 The values of MEDV are distributed normally with few outliers.
@@ -50,7 +48,7 @@ RM has a strong positive correlation with MEDV (0.7) where as LSTAT has a high n
 
 
 2/ Infer (**Appropriate analysis of the relationship between the median house price and whether the house borders the river, with good explanations of the analysis**)
-- Investigate locations of houses, find patterns.
+- <s>Investigate locations of houses, find patterns.</s>
 - Find median (analyse whether there is a significant difference in median house prices between houses that are along the Charles river and those that aren’t)
 
 OBSERVATIONS:
