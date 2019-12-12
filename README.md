@@ -2,11 +2,11 @@
 
 ## This is a Jupyter notebook that analyses the Boston Housing dataset.
 
-It compares the median values of housing with regard to whether or not they are near or far from the Charles River (CHAS). It runs some descriptive statistics to find the mean, max, median, standard deviation and variance of the feature set. 
+It compares the median house prices with regard to whether or not they are near or far from the Charles River (CHAS), it also compares the median house price to the number of rooms (RM). It plots the data using scatterplots and bar charts, and runs some descriptive statistics to find the mean, max, median, standard deviation and variance of the feature set. 
 
-The variables are explored using line plots and a boxplot to understand more about the data. It also uses inferential statistics on the dataset, running Student's TTest and ANOVA to find any differenes in the means of the data. 
+It also uses inferential statistics on the dataset, running regression analyses, and Student's TTest and ANOVA tests to find any differences in the means of the data for the MEDV (median value) and CHAS (proximity to river) variables. The variables are also explored using line plots and a boxplot to understand more about the data. 
 
-It then uses the Keras Neural Network to (try to) make accurate predictions about the target variable, using CHAS or the proximity to the Charles River as the target variable.
+It then uses the Keras Neural Network to make accurate predictions about the output variable (MEDV), using CHAS, zoning (ZN), pupil teacher ratio (PTRATIO), low socioeconomic status (LSTAT) as the input variables.
 
 
 
